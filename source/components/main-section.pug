@@ -1,0 +1,24 @@
+section.main-section
+  .wrapper
+    .main-section__container
+      .main-section__header-wrapper
+        include ../components/header.pug
+      h1.main-section__title.font-w-regular.font-s-54.text-up
+        | Зарабатывайте 
+        br
+        span.color-gold от 444 000 ₽ ежемесячно 
+        br.no-br
+        | на ногтевой студии
+      img.main-section__logo-icon(src="images/main-section-logo-icon.png" loading="lazy" width="840" height="142" alt="icon")
+      .main-section__sub-title.font-w-light.font-s-18
+        | Получите подробную презентацию франшизы с 
+        br.no-br
+        | цифрами и примерами в 1 клик
+      form.main-section__form(data-feedback-form)
+        input.input.main-item(type="text" name="name" autocomplete="off" placeholder="Ваше имя")
+        input.input.main-item(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Ваш телефон")
+        button.btn.main-item(type="submit") Получить
+        .main-section__privacy.font-w-thin.font-s-12.main-item
+          | Я принимаю условия 
+          a(href="#" data-remodal-target="privacy").agree-privacy Политики конфиденциальности
+      img.main-section__img(src="images/main-section-img.png" loading="lazy" width="1310" height="1336" alt="image")

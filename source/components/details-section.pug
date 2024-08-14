@@ -1,0 +1,49 @@
+section.details-section
+  .wrapper
+    .details-section__container
+      h2.details-section__title.font-w-bold.font-s-40.text-up.text-center
+        | Хотите узнать 
+        span.color-orange детали 
+        br.no-br
+        | ведения бизнеса?
+      .details-section__sub-title.font-w-bold.font-s-28.text-center Оставьте заявку на тест-драйв франшизы и мы расскажем вам:
+      .swiper-details
+        .details-section__items.swiper-wrapper
+          .details-section__item.swiper-slide
+            img.details-section__item-icon(src="images/details-section-item-icon.svg" loading="lazy" width="46" height="34" alt="icon")
+            .details-section__items-text.font-w-medium.font-s-28
+              | По каким критериям выбрать формат франшизы, который 
+              br.no-br
+              | подойдет именно вам
+          .details-section__item.swiper-slide
+            img.details-section__item-icon(src="images/details-section-item-icon.svg" loading="lazy" width="46" height="34" alt="icon")
+            .details-section__items-text.font-w-medium.font-s-28
+              | Как собрать команду профессионалов и быстро выделиться 
+              br.no-br
+              | на рынке
+          .details-section__item.swiper-slide
+            img.details-section__item-icon(src="images/details-section-item-icon.svg" loading="lazy" width="46" height="34" alt="icon")
+            .details-section__items-text.font-w-medium.font-s-28
+              | Как настроить эффективный маркетинг и привлечь 
+              br.no-br
+              | внимание первых клиентов
+          .details-section__item.swiper-slide
+            img.details-section__item-icon(src="images/details-section-item-icon.svg" loading="lazy" width="46" height="34" alt="icon")
+            .details-section__items-text.font-w-medium.font-s-28
+              | Как правильно выстроить общие процессы бизнеса и 
+              br.no-br
+              | минимизировать риски
+          .details-section__item.swiper-slide
+            img.details-section__item-icon(src="images/details-section-item-icon.svg" loading="lazy" width="46" height="34" alt="icon")
+            .details-section__items-text.font-w-medium.font-s-28
+              | Как быстро развить масштабировать финансовые 
+              br.no-br
+              | результаты компании
+        .details-pagination.swiper-progress-details
+      .details-section__bottom
+        img.details-section__bottom-icon1(src="images/details-section-bottom-icon1.png" loading="lazy" width="267" height="267" alt="icon")
+        img.details-section__bottom-icon2(src="images/details-section-bottom-icon2.png" loading="lazy" width="938" height="927" alt="icon")
+        form.details-section__form(data-feedback-form)
+          input.input.input--shadow-brown.details-item(type="text" name="name" autocomplete="off" placeholder="Ваше имя")
+          input.input.input--shadow-brown.details-item(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Ваш телефон")
+          button.btn.details-item(type="submit") записаться

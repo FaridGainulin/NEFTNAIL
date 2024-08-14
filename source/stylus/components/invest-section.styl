@@ -1,0 +1,89 @@
+.invest-section
+  background-image: url('../images/invest-section-bg.jpg')
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
+  background-color #060608
+
+  &__container
+    padding 20px 0 1px 0
+    text-align: center
+    +above($breakpoints.sm)
+      padding 50px 0 50px 0
+    +above($breakpoints.md)
+      padding 90px 0 90px 0
+    +above($breakpoints.xxl)
+      padding 134px 0 134px 0
+
+  &__sub-title
+    padding 20px 0 20px 0
+    +above($breakpoints.sm)
+      padding 20px 0 40px 0
+    +above($breakpoints.md)
+      padding 20px 0 70px 0
+    +above($breakpoints.xxl)
+      padding 20px 0 83px 0
+
+  &__cards
+    +above($breakpoints.sm)
+      display: flex
+      flex-direction: row
+      justify-content center
+      gap: 10px
+    +above($breakpoints.md)
+      gap: 20px
+
+  &__card
+    width 280px !important
+    background-color $color-text
+    padding 12px
+    +above($breakpoints.sm)
+      width 235px !important
+    +above($breakpoints.md)
+      width 310px !important
+    +above($breakpoints.xxl)
+      width 380px !important
+      height: 420px
+
+  &__card-wrapper
+    padding 20px 10px
+    border: 1px solid $color-gold
+    +above($breakpoints.md)
+      padding 34px 10px
+
+  &__card-line
+    width 70px
+    height: 1px
+    margin 0 auto
+    background-color $color-gold
+    +above($breakpoints.md)
+      width 104px
+
+  &__card-title
+    padding 20px 0 20px 0
+    +above($breakpoints.md)
+      padding 30px 0 39px 0
+      letter-spacing: -2px
+
+  &__card-icon
+    width 40px
+    height: 40px
+    margin 0 auto
+    +above($breakpoints.md)
+      width 62px
+      height: 62px
+
+  &__card-text
+    padding 20px 0 20px 0
+    +above($breakpoints.md)
+      padding 37px 0 24px 0
+
+.invest-item
+  width 214px !important
+  margin 0 auto
+  +above($breakpoints.sm)
+    width 170px !important
+  +above($breakpoints.md)
+    width 170px !important
+  +above($breakpoints.xxl)
+    width 214px !important

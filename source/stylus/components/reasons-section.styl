@@ -1,0 +1,118 @@
+.reasons-section
+  background-color #fff
+
+  &__container
+    position relative
+    text-align: center
+    color: $color-text
+    padding 20px 0 20px 0
+    +above($breakpoints.sm)
+      padding 60px 0 40px 0
+    +above($breakpoints.md)
+      padding 100px 0 70px 0
+    +above($breakpoints.xxl)
+      padding 134px 0 94px 0
+
+  &__img
+    position: absolute
+    width 150px
+    height: auto
+    bottom: 0
+    left: -133px
+    +above($breakpoints.sm)
+      width 300px
+      left: -77px
+    +above($breakpoints.md)
+      width 400px
+      left: -80px
+    +above($breakpoints.xxl)
+      width 765px
+      left: -366px
+
+  &__logo-icon
+    width 180px
+    height: auto
+    margin 8px auto 20px
+    +above($breakpoints.sm)
+      width 220px
+      margin 8px auto 40px
+    +above($breakpoints.md)
+      width 280px
+      margin 8px auto 60px
+    +above($breakpoints.xxl)
+      width 360px
+      margin 8px auto 80px
+
+  &__cards
+    +above($breakpoints.sm)
+      display: flex
+      flex-direction: row
+      justify-content center
+      gap: 10px
+    +above($breakpoints.md)
+      gap: 20px
+    +above($breakpoints.xxl)
+      gap: 50px
+
+  &__card
+    width 280px !important
+    height: 378px
+    border 1px solid $color-grey-1
+    padding 16px 16px 26px 16px
+    +above($breakpoints.sm)
+      height: 391px
+      width 235px !important
+    +above($breakpoints.md)
+      height: 430px
+      width 308px !important
+    +above($breakpoints.xxl)
+      height: 498px
+      width 360px !important
+
+  &__card-img
+    width 248px
+    height: auto
+    +above($breakpoints.sm)
+      width 200px
+    +above($breakpoints.md)
+      width 274px
+    +above($breakpoints.xxl)
+      width 328px
+
+  &__card-title
+    text-transform: uppercase
+    padding 14px 0 14px 0
+    +above($breakpoints.sm)
+      padding 20px 0 14px 0
+    +above($breakpoints.xxl)
+      padding 26px 0 14px 0
+
+  &__line
+    width 150px
+    height: 1px
+    background-color $color-text
+    margin 20px auto 20px
+    +above($breakpoints.sm)
+      margin 20px auto 30px
+      width 200px
+    +above($breakpoints.xxl)
+      margin 60px auto 38px
+      width 250px
+    +above($breakpoints.xxl)
+      margin 80px auto 48px
+      width 280px
+
+  &__bottom-text
+    padding 12px 0 20px 0
+    +above($breakpoints.sm)
+      padding 12px 0 24px 0
+
+.reasons-item
+  width 280px
+  margin 0 auto
+  +above($breakpoints.sm)
+    width 300px
+  +above($breakpoints.md)
+    width 360px
+  +above($breakpoints.xxl)
+    width 388px

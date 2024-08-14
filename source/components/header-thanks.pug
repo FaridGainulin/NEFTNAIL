@@ -1,0 +1,15 @@
+header.header
+  .header__container
+    .header__title
+      img.header__logo(src="images/header-logo.png" loading="lazy" width="342" height="58" alt="logo")
+      .header__brand
+        .font-w-medium.font-s-16 NEFTNAIL
+        .font-w-light.font-s-15 Франшиза ногтевой студии
+    .header__connection
+      .header__connection-phone
+        a(href="tel:+70000000000")
+          img.header__phone-icon(src="images/phone-icon.svg" loading="lazy" width="10" height="10" alt="icon")
+        include ../components/phone-number.pug
+      //- a.header__call-me(data-remodal-target="modal-form-call-me")
+      //-   .font-w-light.font-s-15 связаться с нами
+      //-   img.header__call-me-icon(src="images/call-me-icon.svg" loading="lazy" width="8" height="8" alt="icon")

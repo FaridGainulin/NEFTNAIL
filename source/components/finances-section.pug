@@ -1,0 +1,44 @@
+section.finances-section
+  .wrapper
+    .finances-section__container
+      h2.finances-section__title.font-s-54.font-w-regular.text-up
+        | Начните свой прибыльный бизнес 
+        br.no-br
+        span.color-gold в beauty-индустрии 
+      .finances-section__sub-title.font-s-22.font-w-regular
+        | Показатели франшизы в цифрах:
+      .swiper-finances
+        .finances-section__cards.swiper-wrapper
+          .finances-section__card.swiper-slide
+            .finances-section__card-title.font-w-regular.font-s-40 13 месяцев
+            .font-w-regular.font-s-22 срок окупаемости <br> одной студии
+          .finances-section__card.swiper-slide
+            .finances-section__card-title.font-w-regular.font-s-40 1 900 рублей
+            .font-w-regular.font-s-22 средний чек одного <br> клиента
+          .finances-section__card.swiper-slide
+            .finances-section__card-title.font-w-regular.font-s-40 от 30 услуг
+            .font-w-regular.font-s-22 будет оказываться <br> ежедневно
+          .finances-section__card.swiper-slide
+            .finances-section__card-title.font-w-regular.font-s-40 1 837 000 рублей
+            .font-w-regular.font-s-22 средняя ежемесячная <br> выручка
+          .finances-section__card.swiper-slide
+            .finances-section__card-title.font-w-regular.font-s-40 24,2%
+            .font-w-regular.font-s-22 рентабельность <br> по чистой прибыли
+          .finances-section__card.swiper-slide
+            .finances-section__card-title.font-w-regular.font-s-40 444 000 рублей
+            .font-w-regular.font-s-22 средняя ежемесячная <br> чистая прибыль
+        .finances-pagination.swiper-progress-finances
+      .finances-section__text.font-w-medium.font-s-26
+        | Получите финансовую модель с подробными 
+        br.no-br
+        | расчётами для вашего города и под ваш бюджет
+      form.finances-section__form(data-feedback-form)
+        input.input.input--secondary.finances-item(type="text" name="name" autocomplete="off" placeholder="Ваше имя")
+        input.input.input--secondary.finances-item(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Ваш телефон")
+        button.btn.btn--secondary.finances-item(type="submit") Получить
+      .finances-section__privacy.font-w-thin.font-s-12
+        | Я принимаю условия 
+        a(href="#" data-remodal-target="privacy").agree-privacy Политики конфиденциальности
+  .finances-section__wrapper-bottom
+    img.finances-section__img(src="images/finances-section-img.png" loading="lazy" width="1329" height="510" alt="image")
+  .finances-section__bottom-line

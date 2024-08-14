@@ -1,0 +1,65 @@
+.header
+  &__container
+    display: flex
+    flex-direction: row
+    align-items: center
+    justify-content space-between
+
+  &__title
+    display: flex
+    flex-direction: row
+    align-items: center
+    +above($breakpoints.sm)
+      gap: 10px
+    +above($breakpoints.md)
+      gap: 15px
+    +above($breakpoints.xxl)
+      gap: 34px
+
+  &__logo
+    width 120px
+    height: auto
+    +above($breakpoints.sm)
+      width 140px
+    +above($breakpoints.md)
+      width 150px
+    +above($breakpoints.xxl)
+      width 171px
+
+  &__brand
+    display: none
+    +above($breakpoints.sm)
+      display: flex
+      flex-direction: row
+      align-items: center
+      gap 10px
+    +above($breakpoints.md)
+      gap 15px
+    +above($breakpoints.xxl)
+      gap 23px
+
+  &__connection
+    display: flex
+    flex-direction: row
+    align-items: flex-end
+    gap: 10px
+    +above($breakpoints.md)
+      gap: 27px
+
+  &__connection-phone
+    display: flex
+    flex-direction: row
+    align-items: center
+    gap: 5px
+    cursor pointer
+    +above($breakpoints.sm)
+      gap: 7px
+
+  &__call-me
+    display: none
+    +above($breakpoints.sm)
+      display: flex
+      flex-direction: row
+      align-items: center
+      gap: 10px
+      cursor pointer

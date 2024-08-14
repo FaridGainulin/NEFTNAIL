@@ -1,0 +1,25 @@
+section.city-section
+  .wrapper
+    .city-section__container
+      h2.city-section__title.font-w-regular.font-s-54.text-up
+        | Зарабатывайте 
+        span.color-gold от 5,3 млн 
+        br.no-br
+        span.color-gold чистой прибыли в год 
+        br.no-br
+        | на собственной 
+        br.no-br
+        | ногтевой студии
+      .city-section__sub-title.font-w-light.font-s-18
+        | Проверьте, свободен ли ваш город 
+        br.no-br
+        | для работы по франшизе 
+        span.color-gold «NEFTNAIL»
+      form.main-section__form(data-feedback-form)
+        input.input.main-item(type="text" name="city" autocomplete="off" placeholder="Ваш город")
+        input.input.main-item(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Ваш телефон")
+        button.btn.main-item(type="submit") Получить
+        .main-section__privacy.font-w-thin.font-s-12.main-item
+          | Я принимаю условия 
+          a(href="#" data-remodal-target="privacy").agree-privacy Политики конфиденциальности
+      img.city-section__img(src="images/city-section-img.png" loading="lazy" width="1318" height="1390" alt="image")
